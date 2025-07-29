@@ -1,0 +1,26 @@
+.outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    flex-wrap: nowrap;
+
+}
+.images img{
+    height: 90px;
+    width: 90px;
+}
+
+
+.images{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin: auto;
+}
+.images div{
+    padding-left: 20px;
+}
